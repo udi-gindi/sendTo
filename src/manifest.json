@@ -1,0 +1,19 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "sendTo",
+      "identifier": "my-command-identifier",
+      "script": "./my-command.js",
+      "shortcut" : "ctrl shift 1"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "title": "sendTo",
+    "items": [
+      "my-command-identifier"
+    ]
+  }
+}
