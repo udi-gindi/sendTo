@@ -1,0 +1,23 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "sendTo",
+      "identifier": "my-command-identifier",
+      "script": "my-command.js",
+      "shortcut": "ctrl shift 1"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "title": "sendTo",
+    "items": [
+      "my-command-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "name": "sendTo",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}

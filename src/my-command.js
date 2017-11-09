@@ -2,7 +2,6 @@ export default function(context) {
   
   var doc = context.document;
   var exports = NSMutableArray.alloc().init()
-  var potentialExports = context.document.allExportableLayers()
   var exportFolder= createTempFolderNamed()
   var assets=[];
   var selection = context.selection;
@@ -76,3 +75,4 @@ var createFolderAtPath = function(pathString) {
   if (fileManager.fileExistsAtPath(pathString)) return true;
   return fileManager.createDirectoryAtPath_withIntermediateDirectories_attributes_error(pathString, true, null, null);
 }
+
